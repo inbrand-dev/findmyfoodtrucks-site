@@ -404,3 +404,24 @@ button:hover,
     justify-self: start;
   }
 }
+.site-header .brand-with-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  max-width: fit-content;
+}
+
+.site-header .brand-with-logo img {
+  width: 34px !important;
+  height: 34px !important;
+  max-width: 34px !important;
+  max-height: 34px !important;
+  object-fit: contain;
+  display: block;
+  border-radius: 0.35rem;
+}
+
+.site-header .brand-with-logo span {
+  font-size: 1rem;
+  line-height: 1;
+}
