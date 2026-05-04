@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Customers | Find My Food Trucks</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Find My Food Trucks</a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="customers.html">Customers</a>
+      <a href="operators.html">Operators</a>
+      <a href="trucks/demo-truck.html">Demo Truck</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Customer preview</p>
+        <h1>Find the truck before you drive</h1>
+        <p class="hero-text">
+          Find My Food Trucks will help customers discover active food trucks nearby,
+          check current status, view recent updates, and search by city, cuisine, or truck name.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="trucks/demo-truck.html">View demo truck</a>
+          <a class="button secondary" href="index.html">Back to home</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-grid">
+      <article class="cta-card">
+        <h2>Live truck status</h2>
+        <p>
+          See whether a truck is open now, opening soon, offline, or recently active.
+          The goal is to reduce guessing and wasted trips.
+        </p>
+      </article>
+
+      <article class="cta-card accent">
+        <h2>Search by what matters</h2>
+        <p>
+          Search by truck name, food type, city, or local area. Customers should be
+          able to find BBQ, tacos, coffee, desserts, or whatever is nearby.
+        </p>
+      </article>
+
+      <article class="cta-card">
+        <h2>Recent activity</h2>
+        <p>
+          A simple feed will show location updates, menu notes, sold-out notices,
+          upcoming stops, and other useful truck posts.
+        </p>
+      </article>
+
+      <article class="cta-card">
+        <h2>Favorites later</h2>
+        <p>
+          Future versions may let customers follow favorite trucks and quickly check
+          where they are without hunting through social media.
+        </p>
+      </article>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">MVP direction</p>
+        <h2>Static shell now, live discovery later</h2>
+        <p class="section-text">
+          This customer page is only a preview. The current MVP focus is the operator-side
+          app. The website will become the discovery layer after backend sync is added.
+        </p>
+      </div>
+
+      <div class="activity-list">
+        <article class="activity-card">
+          <div>
+            <span class="status-badge open">Open Now</span>
+            <h3>Karasmokies</h3>
+            <p>Chicken BBQ, pork BBQ, and karaoke energy. Currently active in Texas.</p>
+          </div>
+          <span class="activity-time">Updated recently</span>
+        </article>
+
+        <article class="activity-card">
+          <div>
+            <span class="status-badge soon">Coming Later</span>
+            <h3>City search</h3>
+            <p>Customers will be able to search by city or nearby local area.</p>
+          </div>
+          <span class="activity-time">Future feature</span>
+        </article>
+
+        <article class="activity-card">
+          <div>
+            <span class="status-badge offline">Not Live Yet</span>
+            <h3>Customer accounts</h3>
+            <p>No login or customer account system exists in this static MVP.</p>
+          </div>
+          <span class="activity-time">Deferred</span>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Customer discovery is planned for a future version. This page is a static MVP preview.</p>
+  </footer>
+</body>
+</html>
